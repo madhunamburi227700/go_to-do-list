@@ -50,5 +50,7 @@ func main() {
 		default:
 			fmt.Println("Invalid option. Try again.")
 		}
+		
+		fmt.Print("Choose an option: ")
 	}
 }
