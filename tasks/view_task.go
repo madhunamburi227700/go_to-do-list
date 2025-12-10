@@ -14,9 +14,9 @@ func View() {
 
 	fmt.Println("\nYour Tasks:")
 	for i, t := range TaskList {
-		status := "✗ Not Done"
+		status := "Not Done"
 		if t.Done {
-			status = "✓ Done"
+			status = "Done"
 		}
 		fmt.Printf("%d. %s [%s]\n", i+1, t.Title, status)
 	}

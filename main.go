@@ -29,18 +29,18 @@ func main() {
 		switch choice {
 		case "1":
 			tasks.Add()
-			json_saved.SaveToFile() // save after update
+			json_saved.SaveToFile()
 
 		case "2":
 			tasks.View()
 
 		case "3":
 			tasks.MarkDone()
-			json_saved.SaveToFile() // save after update
+			json_saved.SaveToFile()
 
 		case "4":
 			tasks.Delete()
-			json_saved.SaveToFile() // save after update
+			json_saved.SaveToFile()
 
 		case "5":
 			fmt.Println("Saving tasks... Goodbye!")
